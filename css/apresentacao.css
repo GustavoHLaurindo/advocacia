@@ -1,0 +1,56 @@
+
+header.cabecalho-container{
+    color: var(--cor-letra-principal);
+    padding: 20px 50px 40px 20px;
+    background-image: linear-gradient(315deg, transparent 0%, #000000 100%), url(../imagens/advocacia-background.png);
+    background-size: cover;
+    font-family: "poppins";
+
+}
+div.menu{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    max-width: 1050px;
+    margin: auto;
+    justify-content: space-between;
+}
+ul.menu-lista{
+    display: flex;
+    list-style: none;
+}
+li.menu-item{
+    margin-right: 50px;
+    font-size: 1em;
+}
+li.menu-item:last-child{
+    margin: 0px;
+}
+.apresentacao{
+    margin-top: 70px; 
+    display: flex;
+    align-items: center;
+    max-width: 1150px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+    
+}
+.titulo-apresentacao{
+    color: var(--cor-principal);
+    width: 600px;
+    line-height: 1.3em;
+    font-weight: 700;
+    
+}
+img.advogado-imagem{
+    border-radius: 25px;
+}
+.apresentacao-textos{
+    width: 645px;
+}
+.paragrafo-container{
+    margin-top: 18px;
+    font-size: 1.05em;
+    font-weight: 500;
+}
